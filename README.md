@@ -2,7 +2,7 @@
 Machine learning and data analysis
 
 
-# jupyter interactive feature importance with ipywidgets http://ipython.org/
+###  jupyter interactive feature importance with ipywidgets http://ipython.org/
 - file: Интерактивная важность параметров.ipynb - feature importance
 - file: Важность характеристик по сдвигу.ipynb - diagrams of change in feature importance in time
 
