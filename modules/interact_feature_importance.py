@@ -40,7 +40,7 @@ def f(d1, d2, dates, X, Y):
         X_short = X.iloc[intersection]
         Y_short = Y.iloc[intersection]
 
-        # indices, importa`nce_sum = calc_feature_importance(X_short, Y_short, n=150)
+        indices, importance_sum = calc_feature_importance(X_short, Y_short, n=150)
         # Print the feature ranking
         print("Feature ranking:")
         for p in range(X_short.shape[1])[:100]:  # первые 50

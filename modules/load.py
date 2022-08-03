@@ -17,11 +17,13 @@ def load():
     """
     :return: dates, X, Y
     """
-    # mypath = '/mnt/hit4/hit4user/PycharmProjects/mysql_connector'
-    mypath = '/home/u2/jupyter_notebooks/modules'
+    mypath = '/mnt/hit4/hit4user/PycharmProjects/mysql_connector'
+    # mypath = '/home/u2/jupyter_notebooks/modules'
     # mypath = 'modules'
     X_files = sorted([os.path.join(mypath, f) for f in os.listdir(mypath) if 'final_features_X' in f])
+    print(X_files)
     Y_files = sorted([os.path.join(mypath, f) for f in os.listdir(mypath) if 'final_features_Y' in f])
+    print(X_files)
     date_files = sorted([os.path.join(mypath, f) for f in os.listdir(mypath) if 'date_' in f])
     X = read_dfs(X_files)
     Y = read_dfs(Y_files)
