@@ -10,4 +10,6 @@ notebook import main logic from ./modules subfolder
 
 Feature importance calculated with help of RandomForestClassifier as an average of 100 runs with linespace of parameters
 
-![Alt text]()
+![feature importance](https://github.com/Anoncheg1/jupyter_notebooks/blob/main/doc/Screenshot.png)
+![feature importance](https://github.com/Anoncheg1/jupyter_notebooks/blob/main/doc/Screenshot_1.png)
+![feature importance](https://github.com/Anoncheg1/jupyter_notebooks/blob/main/doc/Screenshot_2.png)
